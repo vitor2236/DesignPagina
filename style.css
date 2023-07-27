@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&family=Quicksand:wght@400;700&family=Ysabeau+Infant:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.png img{
+    position: sticky;
+}
+
+.logo-principal{
+    text-align: center;
+    position: relative;
+    top: -33vh;
+}
+
+.logo-principal h1{
+    font-family: Bai Jamjuree;
+    font-size: 40px;
+    margin-top: 30px;
+    color: rgb(45, 45, 45);
+}
+
+.logo-principal p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+.logo-principal button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    font-family: Bai Jamjuree;
+}
+
+#ios{
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+    border-bottom: 3px solid hsla(212, 10%, 33%, 0.358);
+}
+
+#mac{
+    margin-left: 10px;
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsla(212, 10%, 33%, 0.358);
+}
+
+.snippets{
+    text-align: center;
+    position: relative;
+    margin-top: -60px;
+}
+
+.snippets h1{
+    font-family: Bai Jamjuree;
+    font-size: 35px;
+    margin-top: 30px;
+    color: rgb(45, 45, 45);
+}
+
+.snippets p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 15px;
+}
+
+.computador{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.computador img{
+    margin-left: -35px;
+}
+
+.inform{
+    margin-left: 20vh;
+    margin-top: 8vh;
+}
+
+.inform h1{
+    font-family: Bai Jamjuree;
+    font-size: 25px;
+    margin-top: 50px;
+    color: rgb(45, 45, 45);
+}
+
+.inform p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    font-size: 16px;
+}
+
+.anywhere{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.anywhere h1{
+    font-family: Bai Jamjuree;
+    font-size: 35px;
+    margin-top: 30px;
+    color: rgb(45, 45, 45);
+}
+
+.anywhere p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 15px;
+}
+
+.img{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.supercharge{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.supercharge h1{
+    font-family: Bai Jamjuree;
+    font-size: 35px;
+    color: rgb(45, 45, 45);
+}
+
+.supercharge p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.icons-inform{
+    display: flex;
+    text-align: center;
+    margin-left: 25vh;
+    margin-top: 20vh;
+}
+
+.icons-inform h1{
+    font-family: Bai Jamjuree;
+    font-size: 27px;
+    color: rgb(45, 45, 45);
+    margin-top: 7vh;
+}
+
+.icons-inform p{
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.create{
+    margin-right: 70px;
+}
+
+.plain{
+    margin-right: 70px;
+}
+
+.icons-marcas{
+    margin-top: 20vh;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.icons-marcas img{
+    margin-left: 80px;
+    width: 120px;
+}
+
+.clipboard{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.clipboard h1{
+    font-family: Bai Jamjuree;
+    font-size: 35px;
+    color: rgb(45, 45, 45);
+}
+
+.clipboard p {
+    font-family: Bai Jamjuree;
+    color: darkgray;
+    margin-top: 10px;
+}
+
+.clipboard button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: white;
+    font-family: Bai Jamjuree;
+}
+
+#ios-clipboard{
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+    border-bottom: 3px solid hsla(212, 10%, 33%, 0.358);
+}
+
+#mac-clipboard{
+    margin-left: 10px;
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsla(212, 10%, 33%, 0.358);
+}
+
+footer{
+    width: 100%;
+    height: 25vh;
+    margin-top: 30vh;
+    display: flex;
+    background-color: hsl(0, 0%, 92%);
+    padding-top: 40px;
+}
+
+footer img{
+    margin-left: 30vh;
+    margin-top: 10px;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+.faqs{
+    font-family: Bai Jamjuree;
+    margin-left: 20vh;
+}
+
+.privacy-policy{
+    font-family: Bai Jamjuree;  
+    margin-left: 80px;
+}
+
+.install{
+    font-family: Bai Jamjuree; 
+    margin-left: 80px;
+}
+
+.social{
+    position: relative;
+    left: 40vh;
+}
+
+.social svg{
+    margin-left: 15px;
+    margin-top: 30px;
+}
